@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <!-- Font Awesome CDN -->
     <script src="https://kit.fontawesome.com/7472c29f3c.js" crossorigin="anonymous"></script>
+    <!-- DaisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <!-- Add the Play CDN script tag -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -25,7 +27,75 @@
       </script>
 </head>
 <body>
-    <main>
+    <!-- main container -->
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-24">
+       <!-- header section -->
+       <header>
+        <!-- Navbar Section -->
+        <div class="navbar bg-base-100 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex-1 gap-4">
+                <img src="Images/Group 40071 (2).png" alt="">
+              <a class="text-3xl font-bold ">Hero <span class="text-orange-500">Travel</span></a>
+            </div>
+            <div class="flex-none">
+              <ul class="flex gap-8 px-1 text-lg">
+                <li><a class="cursor-pointer hover:text-orange-500">Home</a></li>
+                <li><a class="cursor-pointer hover:text-orange-500" >Packages</a></li>
+                <li><a class="cursor-pointer hover:text-orange-500">Testimonial</a></li>
+                <li><a class="cursor-pointer hover:text-orange-500">Blog</a></li>
+                <li><a class="cursor-pointer hover:text-orange-500">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Hero Section -->
+          <div class="hero min-h-96 rounded-xl mt-12 mb-24"
+                style="background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png); ">
+                <div class="hero-overlay bg-opacity-20 rounded-xl"></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="max-w-2xl ">
+                    <h1 class="mb-6 text-5xl font-bold text-white">Explore Your Travel</h1>
+                    <p class="mb-16 text-white text-sm">
+                        Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio <br> enim ac quis sapien urna eu phasellus.
+                    </p>
+                    <div class="bg-blue-500 p-4 rounded-xl backdrop-opacity-10 backdrop-invert bg-white/30 ... ">
+                            <form action="">
+                                <div class="flex justify-between gap-4">
+                                    <label class="form-control  w-full max-w-36">
+                                        <input  type="text" placeholder="Where Go" class="input  w-full max-w-xs" />
+                                      </label>
+                                      <label class="form-control w-full max-w-36">
+                                        <select class="select select-bordered">
+                                          <option>When</option>
+                                          <option>Star Wars</option>
+                                          <option>Harry Potter</option>
+                                          <option>Lord of the Rings</option>
+                                          <option>Planet of the Apes</option>
+                                          <option>Star Trek</option>
+                                        </select>
+                                      </label>
+    
+                                      <label class="form-control w-full max-w-36">
+                                        <select class="select select-bordered">
+                                          <option>Select Type</option>
+                                          <option>Star Wars</option>
+                                          <option>Harry Potter</option>
+                                          <option>Lord of the Rings</option>
+                                          <option>Planet of the Apes</option>
+                                          <option>Star Trek</option>
+                                        </select>
+                                      </label>
+    
+                                      <label class="input input-bordered bg-orange-500 flex items-center gap-2 max-w-36 flex  items-center">
+                                        <i class="fa-solid fa-magnifying-glass text-white"></i>
+                                        <input type="text" class="grow placeholder-white"  placeholder="Find Now" />
+                                      </label>
+                                </div>
+                            </form>
+                    </div>
+                    </div>
+                </div>
+                </div>
+       </header>
 
     </main>
 </body>
