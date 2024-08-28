@@ -26,11 +26,11 @@
         }
       </script>
 </head>
-<body>
+<body class="max-w-[1440px] mx-auto">
     <!-- main container -->
-    <main class="w-11/12 mx-auto px-16 lg:px-24">
+    <main class="">
        <!-- header section -->
-       <header>
+       <header class="w-11/12 mx-auto">
         <!-- Navbar Section -->
         <div class="navbar bg-base-100 flex justify-between items-center">
             <div class="flex-1 gap-4">
@@ -38,7 +38,7 @@
               <a class="text-3xl font-bold ">Hero <span class="text-orange-500">Travel</span></a>
             </div>
             <div>
-              <ul class="lg:flex hidden lg:block gap-8 px-1 text-lg">
+              <ul class="lg:flex hidden md:block gap-8 px-1 text-lg">
                 <li><a class="cursor-pointer hover:text-orange-500">Home</a></li>
                 <li><a class="cursor-pointer hover:text-orange-500" >Packages</a></li>
                 <li><a class="cursor-pointer hover:text-orange-500">Testimonial</a></li>
@@ -117,8 +117,8 @@
 
        <!-- Our Popular Tours Section  -->
           <section class="w-11/12 mx-auto">
-            <div class="flex flex-col lg:flex-row justify-between items-center gap-16 mb-24 ">
-              <div class="w-2/8 lg:w-4/8">
+            <div class="flex flex-col lg:flex-row justify-between items-center gap-16 mb-24">
+              <div class="flex-1">
                   <h2 class="text-3xl font-bold mb-6">Our Popular Tours</h2>
                   <p class="mb-6 text-gray-500">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
                   <li class="mb-4 text-gray-500">Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
@@ -133,8 +133,8 @@
                   <button class="px-8 py-3 rounded-lg bg-orange-500 "><span class="text-white">Read More</span></button>
               </div>
 
-              <div class="">
-                  <img class="w-full" src="Images/Rectangle 4.png" alt="">
+              <div class="flex-1 flex justify-end">
+                  <img class="" src="Images/Rectangle 4.png" alt="">
               </div>
           </div>
           </section>
@@ -180,6 +180,101 @@
             </div>
      </div>
      </section>
+
+     <!-- why choose us section -->
+      <section class="w-11/12 mx-auto">
+        <div class="mt-24">
+          <h2 class="text-center font-bold text-3xl">Why Choose Us</h2>
+          <p class="text-center mt-6 mb-12 text-base text-gray-500 mb-12">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst nec nibh pellentesque.</p>
+       </div>
+    <!-- why choose cart section -->
+       <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+        <div class="card bg-primary text-primary-content md:col-span-6 ">
+          <div class="card-body bg-[#fffbf7] text-black"></i> 
+            <i class="fa-solid fa-hotel text-7xl my-5 text-green-500"></i>
+            <h2 class="card-title">Handpicked Hotels</h2>
+            <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+          </div>
+        </div>
+
+
+        <div class="card bg-primary text-primary-content md:col-span-6">
+          <div class="card-body bg-[#f7fdff] text-black">
+            <i class="fa-solid fa-map-location text-7xl my-5 text-green-500"></i>
+            <h2 class="card-title">World Class Service</h2>
+            <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+          </div>
+        </div>
+
+
+        <div class="card bg-primary text-primary-content md:col-start-3 md:col-span-8">
+          <div class="card-body bg-[#fff4f4] text-black">
+            <i class="fa-solid fa-money-bill text-7xl my-5 text-green-500"></i>
+            <h2 class="card-title">Best Price Guarantee</h2>
+            <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+          </div>
+        </div>
+       </div>
+      </section>
+
+      <!-- Deals & Discounts section -->
+      <section class="w-11/12 mx-auto">
+        <div class="mt-24">
+          <h2 class="text-center font-bold text-3xl">Choose Your Destination</h2>
+          <p class="text-center mt-6 mb-12 text-base text-gray-500">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst nec nibh pellentesque.</p>
+       </div>
+
+       <!-- Deals & Discounts carts -->
+       <div class="w-11/12 mx-auto">
+        <div class="grid grid-cols-1 gap-6">
+          <div class="relative">
+            <div class="absolute bg-white p-4 md:p-12 md:w-[480px] rounded-xl bg-blend-multiply bg-opacity-85 bottom-4 right-4 md:right-14 md:top-24 md:bottom-24">
+              <h3 class="font-bold text-xl">Tour To Satorini</h3>
+              <p class="py-4">Amet consectetur. Vulputate commodo felis 
+                molestie risus  ornare nulla amet et. </p>
+                <p class="pb-4 font-extrabold text-orange-500">Price: $1300-$1500</p>
+                <button class="btn text-white  bg-orange-500 border-none"><span class="font-bold text-xl">Book Now</span></button>
+            </div>
+            <div class="">
+              <img class="w-full h-[400px] md:h-full object-cover rounded-xl" src="Images/Group 39.png" alt="">
+            </div>
+          </div>
+  
+          <div class="relative ">
+            <div class="absolute bg-white p-4 md:p-12 md:w-[480px] rounded-xl bg-blend-multiply bg-opacity-85 bottom-4 right-4  md:left-14 md:top-24 md:bottom-24">
+              <h3 class="font-bold text-xl">Tour To Satorini</h3>
+              <p class="py-4">Amet consectetur. Vulputate commodo felis 
+                molestie risus  ornare nulla amet et. </p>
+                <p class="pb-4 font-extrabold text-orange-500">Price: $1300-$1500</p>
+                <button class="btn text-white  bg-orange-500 border-none"><span class="font-bold text-xl">Book Now</span></button>
+            </div>
+            <div class="">
+              <img class="w-full h-[400px] md:h-full object-cover rounded-xl" src="Images/Group 39.png" alt="">
+            </div>
+          </div>
+
+
+          <div class="relative">
+            <div class="absolute bg-white p-4  md:p-12 md:w-[480px] rounded-xl bg-blend-multiply bg-opacity-85 bottom-4 right-4  md:right-14 md:top-24 md:bottom-24">
+              <h3 class="font-bold text-xl">Tour To Satorini</h3>
+              <p class="py-4">Amet consectetur. Vulputate commodo felis 
+                molestie risus  ornare nulla amet et. </p>
+                <p class="pb-4 font-extrabold text-orange-500">Price: $1300-$1500</p>
+                <button class="btn text-white  bg-orange-500 border-none"><span class="font-bold text-xl">Book Now</span></button>
+            </div>
+            <div class="">
+              <img class="w-full h-[400px] md:h-full object-cover rounded-xl" src="Images/Group 39.png" alt="">
+            </div>
+          </div>
+         </div>
+
+
+          <div class="flex justify-center mt-10">
+            <button class="btn bg-orange-500"><span class="text-white text-base">See All Packages</span></button>
+          </div>
+        </div>
+      </section>
+
     </main>
 </body>
 </html>
